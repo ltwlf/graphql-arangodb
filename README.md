@@ -1,10 +1,8 @@
-# graphql-arangodb
+# arangorize (graphql-arangodb)
+
+_I forked this library from this project [graphql-arangoDB](https://github.com/a-type/graphql-arangodb) and added a schema generator. It it still not sure, if I will maintain my own library or contribute to the original one._
 
 An experimental library for 'translating' GraphQL operations into ArangoDB AQL queries which are designed to fetch all requested data in as few queries as possible. Flexibility is another objective; I want to empower the developer to define exactly how they want their GraphQL schema without being forced into a particular schema shape due to their database structure.
-
-## Maintainers Welcome
-
-I've moved on from the side project which drove me to create this library and I don't actively use it anymore. If there's a feature or bugfix you need, I encourage you to open a PR. If you'd like to take this project in a new direction, you're welcome to fork it!
 
 ## Example
 
