@@ -11,7 +11,7 @@ describe('arangorize', () => {
   beforeAll(async () => {
     container = await new ArangoDBContainer().start();
 
-    // sometimes arangodb is not immediately ready -> wait a sencond
+    // sometimes arangodb is not immediately ready -> wait a second
     await new Promise(resolve => setTimeout(() => resolve(), 1000));
 
     db = new Database({
